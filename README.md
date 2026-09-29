@@ -57,3 +57,8 @@ This project was created to practice basic Python concepts such as:
 * Save attendance records
 * Add monthly attendance history
 * Allow users to edit attendance
+
+
+👩‍💻 Author
+
+Riddhi Deshmukh
