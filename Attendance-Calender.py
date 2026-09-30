@@ -1,5 +1,5 @@
 print("===== ATTENDANCE CALENDAR =====")
-
+name=input("Add Student Name:")
 month = input("Enter month name: ")
 days = int(input("Enter number of days in the month: "))
 
@@ -25,6 +25,7 @@ absent = attendance.count("Absent")
 percentage = (present / days) * 100
 
 print("\n===== ATTENDANCE REPORT =====")
+print("name:",name)
 print("Present:", present)
 print("Absent:", absent)
 print("Attendance:", round(percentage, 2), "%")
