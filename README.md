@@ -1,64 +1,87 @@
 # 📅 Attendance Calendar
 
-A simple beginner-friendly Python project to track daily attendance and calculate the overall attendance percentage.
+## 📌 About the Project
 
-## 🚀 Features
+Attendance Calendar is a beginner-friendly Python project that allows users to enter their name and record their daily attendance for a particular month.
 
-* Enter the month and number of days
-* Mark each day as Present or Absent
-* Count total Present days
-* Count total Absent days
+The program tracks Present and Absent days and calculates the overall attendance percentage.
+
+## ✨ Features
+
+* Enter student's name
+* Enter month name
+* Enter number of days
+* Mark daily attendance as Present (P) or Absent (A)
+* Display attendance for each day
+* Calculate total Present days
+* Calculate total Absent days
 * Calculate attendance percentage
-* Check attendance eligibility
-* Display an attendance report
+* Check attendance eligibility based on 75% attendance
 
 ## 🛠️ Technologies Used
 
-* Python
+* Python 3
 
 ## ▶️ How to Run
 
-1. Download or clone this repository.
-2. Open the project folder.
+1. Clone this repository:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd Attendance-Calendar
+   ```
+
 3. Run the Python file:
 
-```bash
-python attendance_calendar.py
-```
+   ```bash
+   python attendance_calendar.py
+   ```
 
-4. Enter the required attendance details.
-
-## 📊 Example
+## 💻 Sample Output
 
 ```text
+===== ATTENDANCE CALENDAR =====
+
+Enter your name: Riddhi
+Enter month name: September
+Enter number of days in the month: 5
+
+Day 1 - Present (P) / Absent (A): P
+Day 2 - Present (P) / Absent (A): P
+Day 3 - Present (P) / Absent (A): A
+Day 4 - Present (P) / Absent (A): P
+Day 5 - Present (P) / Absent (A): P
+
 ===== ATTENDANCE REPORT =====
-Present: 20
-Absent: 5
+Name: Riddhi
+Month: September
+Present: 4
+Absent: 1
 Attendance: 80.0 %
 Status: Eligible
 ```
 
-## 🎯 Purpose
+## 🎯 Learning Outcomes
 
-This project was created to practice basic Python concepts such as:
+Through this project, I practiced:
 
-* Variables
-* Input and output
-* Lists
-* For loops
-* If-else statements
-* Percentage calculations
-* String methods
+* Taking user input using `input()`
+* Using variables and lists
+* Using `for` loops
+* Using `if-else` conditions
+* Calculating percentages
+* Using the `count()` method
+* Creating a simple attendance tracking system
 
-## 🔮 Future Improvements
-
-* Add a graphical calendar
-* Add multiple subjects
-* Save attendance records
-* Add monthly attendance history
-* Allow users to edit attendance
-
-
-👩‍💻 Author
+## 👩‍💻 Author
 
 Riddhi Deshmukh
+
+---
+
+⭐ If you find this project useful, feel free to star the repository!
